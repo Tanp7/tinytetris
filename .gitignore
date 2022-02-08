@@ -1,0 +1,9 @@
+# 项目排除路径
+/cmake-build-debug/### Example user template template
+### Example user template
+
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
