@@ -4,7 +4,7 @@
 #include <unistd.h>
 #include <stdlib.h>
 #include <string.h>
-
+#include <iostream>
 // block layout is: {w-1,h-1}{x0,y0}{x1,y1}{x2,y2}{x3,y3} (two bits each)
 int x = 431424, y = 598356, r = 427089, px = 247872, py = 799248, pr,
         c = 348480, p = 615696, tick, board[20][10],
@@ -145,6 +145,8 @@ void runloop() {
 
 // init curses and start runloop
 int main() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(nullptr); cout.tie(nullptr);
     srand(time(0));
     initscr();
     start_color();
