@@ -1,0 +1,3 @@
+/Users/pz/CLionProjects/tinytetris/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/pz/CLionProjects/tinytetris/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/pz/CLionProjects/tinytetris/cmake-build-debug/CMakeFiles/tinytetris.dir
